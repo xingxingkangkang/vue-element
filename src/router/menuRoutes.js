@@ -5,6 +5,7 @@ import DialogPracticeView from '@/views/DialogPracticeView.vue'
 import CardPracticeView from '@/views/CardPracticeView.vue'
 import SealAlgorithmVerifyView from '@/views/SealAlgorithmVerifyView.vue'
 import GenerateVerifyTaskView from '@/views/GenerateVerifyTaskView.vue'
+import UtilityToolsView from '@/views/UtilityToolsView.vue'
 
 export const menuRoutes = [
   {
@@ -68,6 +69,15 @@ export const menuRoutes = [
     meta: {
       title: '生成验证任务',
       icon: 'el-icon-s-operation'
+    }
+  },
+  {
+    path: 'utility-tools',
+    name: 'utility-tools',
+    component: UtilityToolsView,
+    meta: {
+      title: '实用小工具',
+      icon: 'el-icon-magic-stick'
     }
   }
 ]
