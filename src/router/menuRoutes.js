@@ -5,6 +5,7 @@ import DialogPracticeView from '@/views/DialogPracticeView.vue'
 import CardPracticeView from '@/views/CardPracticeView.vue'
 import SealAlgorithmVerifyView from '@/views/SealAlgorithmVerifyView.vue'
 import GenerateVerifyTaskView from '@/views/GenerateVerifyTaskView.vue'
+import OrgSealChangeView from '@/views/OrgSealChangeView.vue'
 import UtilityToolsView from '@/views/UtilityToolsView.vue'
 
 export const menuRoutes = [
@@ -69,6 +70,15 @@ export const menuRoutes = [
     meta: {
       title: '生成验证任务',
       icon: 'el-icon-s-operation'
+    }
+  },
+  {
+    path: 'org-seal-change',
+    name: 'org-seal-change',
+    component: OrgSealChangeView,
+    meta: {
+      title: '机构印模转换',
+      icon: 'el-icon-s-home'
     }
   },
   {
